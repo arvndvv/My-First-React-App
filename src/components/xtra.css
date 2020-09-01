@@ -1,0 +1,24 @@
+.hea:after {
+  content: "B374 BR4IN";
+  display: block;
+  font-size: 18px;
+  left: 55%;
+  position: absolute;
+  color: blueviolet;
+}
+.toreg {
+  cursor: pointer;
+}
+.btn-outline-primary {
+  border-width: 2px;
+  margin: 5px 0 5px 0;
+}
+@media only screen and (max-width: 400px) {
+  .hea:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+:focus {
+  outline: none;
+}
