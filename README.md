@@ -1,3 +1,6 @@
+# About
+This is a simple registration/login page with password hashed using sha1 algorithm
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
