@@ -26,6 +26,8 @@ const Login = ({ setregister, setAction, users, others, setOthers }) => {
   }, [others, usernames, setOthers]);
   //handles password changes, updates the value to 'lpass' key in  'others' object
   const myPassHandler = (e) => {
+        updaterror(" ");
+    
     setOthers({ ...others, lpass: e.target.value });
   };
   //handles the submit button (login button)
